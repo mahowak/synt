@@ -18,7 +18,7 @@ from VisionEgg.Text import *
 class Experiment:
 
     def __init__(self):
-        self.subj,self.counter = self.parse()
+        self.subj,self.counter, self.run = self.parse()
         self.setup()
         self.make_order()
 
@@ -33,7 +33,7 @@ class Experiment:
         if options.subj==None or options.counter not in four:
             print 'ERROR:\n-s  subj ID (any)\n-r  counter (1-5)'
             sys.exit()
-        return options.subj, options.counter
+        return options.subj, options.counter, options.run
 
 
     def setup(self):
@@ -155,7 +155,7 @@ class Experiment:
                 elif t<=(self.ideal+self.word_t+self.fix_t): #ISI
                     return []
                 else: #record trial info
-                    self.wr.writerow([self.subj,self.counter,self.trial_n] + self.current + [self.onset])
+                    self.wr.writerow([self.subj,self.run,self.counter,self.trial_n] + self.current + [self.onset])
                     self.reset(t,'trial')
                     self.p.parameters.handle_event_callbacks = [
                         (pygame.locals.KEYDOWN,self.finish)]

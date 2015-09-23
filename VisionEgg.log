@@ -1,0 +1,102 @@
+2015-09-23 16:23:22,692 (30929) INFO: Script pos.py started Vision Egg 1.2.1 with process id 30929.
+2015-09-23 16:23:24,092 (30929) CRITICAL: Traceback (most recent call last):
+  File "pos.py", line 169, in <module>
+    x = Experiment()
+  File "pos.py", line 21, in __init__
+    self.subj,self.counter = self.parse()
+  File "pos.py", line 35, in parse
+    sys.exit()
+SystemExit
+
+2015-09-23 16:23:56,778 (30932) INFO: Script pos.py started Vision Egg 1.2.1 with process id 30932.
+2015-09-23 16:23:57,243 (30932) INFO: Requesting fullscreen 1024 x 640 32 bpp (8 8 8 0 RGBA).
+2015-09-23 16:23:57,818 (30932) INFO: Error while trying to set_icon: <type 'exceptions.ImportError'>: No module named AppKit
+2015-09-23 16:23:57,819 (30932) INFO: OpenGL 2.1 NVIDIA-8.26.21 310.40.35f08, NVIDIA GeForce GT 650M OpenGL Engine, NVIDIA Corporation (PyOpenGL 3.0.2)
+2015-09-23 16:23:57,819 (30932) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2015-09-23 16:23:57,826 (30932) CRITICAL: Traceback (most recent call last):
+  File "pos.py", line 169, in <module>
+    x = Experiment()
+  File "pos.py", line 23, in __init__
+    self.make_order()
+  File "pos.py", line 74, in make_order
+    self.data_file = open(f,'wb')
+IOError: [Errno 2] No such file or directory: 'data/TEST_data.csv'
+
+2015-09-23 16:24:04,614 (30937) INFO: Script pos.py started Vision Egg 1.2.1 with process id 30937.
+2015-09-23 16:24:04,926 (30937) INFO: Requesting fullscreen 1024 x 640 32 bpp (8 8 8 0 RGBA).
+2015-09-23 16:24:05,413 (30937) INFO: Error while trying to set_icon: <type 'exceptions.ImportError'>: No module named AppKit
+2015-09-23 16:24:05,413 (30937) INFO: OpenGL 2.1 NVIDIA-8.26.21 310.40.35f08, NVIDIA GeForce GT 650M OpenGL Engine, NVIDIA Corporation (PyOpenGL 3.0.2)
+2015-09-23 16:24:05,413 (30937) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2015-09-23 16:24:05,420 (30937) CRITICAL: Traceback (most recent call last):
+  File "pos.py", line 169, in <module>
+    x = Experiment()
+  File "pos.py", line 23, in __init__
+    self.make_order()
+  File "pos.py", line 79, in make_order
+    items = [r for r in csv.reader(f) if r[-1]==self.run] #run number is last one there
+AttributeError: Experiment instance has no attribute 'run'
+
+2015-09-23 16:24:52,361 (30944) INFO: Script pos.py started Vision Egg 1.2.1 with process id 30944.
+2015-09-23 16:24:52,596 (30944) CRITICAL: Traceback (most recent call last):
+  File "pos.py", line 169, in <module>
+    x = Experiment()
+  File "pos.py", line 21, in __init__
+    self.subj,self.counter = self.parse()
+ValueError: too many values to unpack
+
+2015-09-23 16:25:13,732 (30946) INFO: Script pos.py started Vision Egg 1.2.1 with process id 30946.
+2015-09-23 16:25:14,042 (30946) INFO: Requesting fullscreen 1024 x 640 32 bpp (8 8 8 0 RGBA).
+2015-09-23 16:25:14,541 (30946) INFO: Error while trying to set_icon: <type 'exceptions.ImportError'>: No module named AppKit
+2015-09-23 16:25:14,542 (30946) INFO: OpenGL 2.1 NVIDIA-8.26.21 310.40.35f08, NVIDIA GeForce GT 650M OpenGL Engine, NVIDIA Corporation (PyOpenGL 3.0.2)
+2015-09-23 16:25:14,542 (30946) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2015-09-23 16:25:14,549 (30946) CRITICAL: Traceback (most recent call last):
+  File "pos.py", line 169, in <module>
+    x = Experiment()
+  File "pos.py", line 23, in __init__
+    self.make_order()
+  File "pos.py", line 91, in make_order
+    self.order+= self.d[j] #self.make_block(self.d[j], num>10)
+KeyError: 'AJ_lm'
+
+2015-09-23 16:26:04,984 (30960) INFO: Script pos.py started Vision Egg 1.2.1 with process id 30960.
+2015-09-23 16:26:05,293 (30960) INFO: Requesting fullscreen 1024 x 640 32 bpp (8 8 8 0 RGBA).
+2015-09-23 16:26:05,787 (30960) INFO: Error while trying to set_icon: <type 'exceptions.ImportError'>: No module named AppKit
+2015-09-23 16:26:05,787 (30960) INFO: OpenGL 2.1 NVIDIA-8.26.21 310.40.35f08, NVIDIA GeForce GT 650M OpenGL Engine, NVIDIA Corporation (PyOpenGL 3.0.2)
+2015-09-23 16:26:05,787 (30960) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2015-09-23 16:26:05,796 (30960) INFO: Requesting fullscreen 1024 x 640 32 bpp (8 8 8 0 RGBA).
+2015-09-23 16:26:05,817 (30960) INFO: Error while trying to set_icon: <type 'exceptions.ImportError'>: No module named AppKit
+2015-09-23 16:26:05,818 (30960) INFO: OpenGL 2.1 NVIDIA-8.26.21 310.40.35f08, NVIDIA GeForce GT 650M OpenGL Engine, NVIDIA Corporation (PyOpenGL 3.0.2)
+2015-09-23 16:26:05,818 (30960) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2015-09-23 16:30:23,202 (30960) WARNING: One or more frames took 562.1 msec, which is signficantly longer than the expected inter frame interval of 16.7 msec for your frame rate (60.0 Hz).
+2015-09-23 16:30:23,203 (30960) INFO: 15198 frames were drawn.
+Mean IFI was 16.78 msec (59.59 fps), longest IFI was 562.13 msec.
+histogram:
+ 13667                                              *                     
+ 12148                                              *                     
+ 10630                                              *                     
+  9111                                              *                     
+  7593                                              *                     
+  6074                                              *                     
+  4556                                              *                     
+  3037                                              *                     
+  1519                                              *                     
+     0                *                   *         *    *    *         * 
+ Time:    0    2    4    6    8   10   12   14   16   18   20   22   24 +(msec)
+Total:      0    0    1    0    0    0    5    0   +++   1    4    0    1  
+
+2015-09-23 16:30:23,204 (30960) INFO: 134 frames were drawn.
+Mean IFI was 16.80 msec (59.52 fps), longest IFI was 24.36 msec.
+histogram:
+   119                                              *                     
+   106                                              *                     
+    92                                              *                     
+    79                                              *                     
+    66                                              *                     
+    53                                              *                     
+    40                                              *                     
+    26                                              *                     
+    13                                              *                     
+     0                                              *                   * 
+ Time:    0    2    4    6    8   10   12   14   16   18   20   22   24 +(msec)
+Total:      0    0    0    0    0    0    0    0   132   0    0    0    1  
+
