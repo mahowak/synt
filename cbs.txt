@@ -1,0 +1,4 @@
+f N_hi V_hm AJ_lm AV_lo FW_hi AV_lm AJ_hm V_hi N_lo f N_hm V_lm AJ_lo AV_hi FW_lo AV_hm AJ_hi V_lo N_lm f 
+f V_hm AV_lm N_lo AJ_hi FW_lo AJ_hm N_hi AV_lo V_lm f V_hi AV_hm N_lm AJ_lo FW_hi AJ_lm N_hm AV_hi V_lo f
+f AJ_lo N_lm AV_hm V_hi FW_lo V_hm AV_hi N_lo AJ_lm f AJ_hm N_hi AV_lm V_lo FW_hi V_lm AV_lo N_hm AJ_hi f
+f AV_hi AJ_hm V_lo N_lm FW_hi N_hm V_lm AJ_hi AV_lo f AV_lm AJ_lo V_hm N_hi FW_lo N_lo V_hi AJ_lm AV_hm f
