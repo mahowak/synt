@@ -12,13 +12,14 @@ for num, thing in enumerate(a):
     itemsused = []
     for cat in thing:
         t += s
-        if cat != "f": 
+        if cat != "f":
+        
             f.write(str(t/2) + " " + str(ordering.index(cat) + 1) + "\n")
         else:
             f.write("\n")
 
     f.write("""#names\n""")
-    f.write(" ".join(ordering[:9]) + "\n")
+    f.write(" ".join(ordering) + "\n")
 
     f.write("""\n#durations\n""")
     f.write(" ".join([str(s/2)]*9))
