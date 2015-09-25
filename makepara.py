@@ -22,7 +22,7 @@ for num, thing in enumerate(a):
     f.write(" ".join(ordering) + "\n")
 
     f.write("""\n#durations\n""")
-    f.write(" ".join([str(s/2)]*9))
+    f.write(" ".join([str(s/2)]*18))
 
     f.close()
     
