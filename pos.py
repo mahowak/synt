@@ -166,7 +166,6 @@ class Experiment:
             self.data_file.close()
             return []
 
-x = Experiment()
 
 
 def Main():
