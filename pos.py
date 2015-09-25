@@ -31,7 +31,7 @@ class Experiment:
         (options,arg) = parser.parse_args()
         four = ['1','2','3','4']
         if options.subj==None or options.counter not in four:
-            print 'ERROR:\n-s  subj ID (any)\n-r  counter (1-5)'
+            print 'ERROR:\n-s  subj ID (any)\n-r  counter (1-4)'
             sys.exit()
         return options.subj, options.counter, options.run
 
@@ -41,7 +41,7 @@ class Experiment:
         self.white = (1,1,1)
         self.font_size = 60
 
-        self.big_fix_t = 1.000
+        self.big_fix_t = 14.000
         self.word_t = 1.200
         self.fix_t = .550
 
