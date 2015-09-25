@@ -1,6 +1,6 @@
 s = 14
 
-a = [i.strip().split(" ") for i in open("formakingpara.txt").readlines()]
+a = [i.strip().split(" ") for i in open("cbs.txt").readlines()]
 
 ordering = [i for i in a[0] if i != 'f']
 
